@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Matriks ELECTRE</title>
+    <title>Input Matriks Electre</title>
     <style>
         table {
             width: 50%;
@@ -40,7 +40,7 @@
 </head>
 
 <body>
-    <h2>Input Matriks ELECTRE</h2>
+    <h2>Input Matriks Electre</h2>
     <form action="{{ url('store') }}" method="post">
         @csrf
         <label for="kriteria1">Bobot Kriteria 1:</label>
@@ -114,8 +114,7 @@
             </tbody>
         </table>
 
-        
-        <input type="submit" value="Proses">
+        <button type="submit" value="Proses"></button>
     </form>
 </body>
 
